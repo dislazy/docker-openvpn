@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: lisenet/openvpn
+          images: ssliunian/openvpn
           tags: |
             type=raw,value=${{ env.OPENVPN_VERSION }}
             type=raw,value=${{ env.OPENVPN_VERSION }}-build${{ env.BUILD_ID }}

@@ -8,6 +8,7 @@
 [![issues](https://img.shields.io/github/issues/lisenet/docker-openvpn)](https://github.com/lisenet/docker-openvpn/issues)
 [![pull_requests_closed](https://img.shields.io/github/issues-pr-closed/lisenet/docker-openvpn)](https://github.com/lisenet/docker-openvpn/pulls)
 
+
 OpenVPN server in a Docker container complete with an EasyRSA PKI CA.
 
 Dockerfile and config forked from a no longer maintained [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn) GitHub repo.

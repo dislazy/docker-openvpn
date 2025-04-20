@@ -28,7 +28,6 @@ jobs:
             pkg-config \
             libssl-dev \
             linux-headers-$(uname -r) \
-            tunctl \
             git
 
       - name: Clone OpenVPN source

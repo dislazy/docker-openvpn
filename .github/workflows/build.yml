@@ -42,7 +42,7 @@ jobs:
           tar czf /tmp/openvpn-2.6.14-static.tar.gz -C /tmp openvpn-2.6.14-static
 
       - name: Upload OpenVPN binary as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: openvpn-2.6.14-static
           path: /tmp/openvpn-2.6.14-static.tar.gz

@@ -20,7 +20,16 @@ jobs:
       - name: Set up musl and build tools
         run: |
           sudo apt update
-          sudo apt install -y git build-essential musl-tools autoconf libtool pkg-config libssl-dev
+          sudo apt install -y \
+            build-essential \
+            musl-tools \
+            autoconf \
+            libtool \
+            pkg-config \
+            libssl-dev \
+            linux-headers-$(uname -r) \
+            tunctl \
+            git
 
       - name: Clone OpenVPN source
         run: |
